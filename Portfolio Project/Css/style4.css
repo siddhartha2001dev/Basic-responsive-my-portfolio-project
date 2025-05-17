@@ -1,0 +1,71 @@
+/* Reset and layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ebe7de;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content fills space */
+main {
+  flex: 1;
+}
+
+/* Section styling */
+section {
+  padding: 5%;
+  margin: 5%;
+  background: #fff;
+  border-radius: 20px;
+  border: solid black;
+}
+
+.box-shadow {
+  border: solid black;
+}
+
+.box-shadow:hover {
+  box-shadow: 10px 20px 20px 5px rgb(101, 101, 101);
+}
+
+/* Header container */
+.container {
+  color: #ffffff;
+  padding: 5%;
+  margin: 5%;
+  background: linear-gradient(to right, rgb(26, 26, 26), rgb(56, 56, 56));
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #a4896b;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Link styling */
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Social item layout */
+.ul {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Icon appearance */
+.ul i {
+  color: black;
+  filter: grayscale(100%);
+}
